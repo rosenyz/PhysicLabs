@@ -10,7 +10,7 @@ services:
       - '8080:8080'
     environment:
       - DB_USERNAME=root
-      - DB_PASSWORD=W200505t
+      - DB_PASSWORD=password
       - DB_URL=jdbc:postgresql://db:5432/postgres
     depends_on:
       - db
