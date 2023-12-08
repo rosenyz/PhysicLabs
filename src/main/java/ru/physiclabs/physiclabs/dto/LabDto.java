@@ -8,9 +8,12 @@ import lombok.Data;
 public class LabDto {
     @NotBlank
     private String title;
+
     private String description;
+
     @NotBlank
     private String videoUrl;
+
     @NotNull
     private Integer grade;
 }

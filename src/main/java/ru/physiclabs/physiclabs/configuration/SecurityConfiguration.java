@@ -22,8 +22,6 @@ import ru.physiclabs.physiclabs.util.JwtRequestFilter;
 @EnableWebSecurity
 @RequiredArgsConstructor
 public class SecurityConfiguration {
-    private final UserService userService;
-
     private final JwtRequestFilter jwtRequestFilter;
 
     @Bean

@@ -23,8 +23,11 @@ import ru.physiclabs.physiclabs.util.JwtUtil;
 @RequiredArgsConstructor
 public class AuthController {
     private final UserService userService;
+
     private final PasswordEncoder passwordEncoder;
+
     private final AuthenticationManager authenticationManager;
+
     private final JwtUtil jwtUtil;
 
     @PostMapping("/login")
