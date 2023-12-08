@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   app:
-    image: '9cd53486dff8'
+    image: '814a3c0f24e5'
     container_name: app
     expose:
       - '8080'
@@ -10,7 +10,7 @@ services:
       - '8080:8080'
     environment:
       - DB_USERNAME=root
-      - DB_PASSWORD=YOURPASSWORD
+      - DB_PASSWORD=W200505t
       - DB_URL=jdbc:postgresql://db:5432/postgres
     depends_on:
       - db
